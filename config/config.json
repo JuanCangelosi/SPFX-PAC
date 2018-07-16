@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/spMayI/SpMayIWebPart.js",
+      "manifest": "./src/webparts/spMayI/SpMayIWebPart.manifest.json",
+      "outputPath": "./dist/sp-may-i-web-part.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "SpMayIWebPartStrings": "webparts/spMayI/loc/{locale}.js"
+  }
+}

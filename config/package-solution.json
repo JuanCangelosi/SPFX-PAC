@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-may-i-client-side-solution",
+    "id": "d153ade4-8fbf-477f-9c18-89a1663e5a9d",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-may-i.sppkg"
+  }
+}

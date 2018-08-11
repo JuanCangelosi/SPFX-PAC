@@ -1,13 +1,18 @@
 {
-  "entries": [
-    {
-      "entry": "./lib/webparts/spMayI/SpMayIWebPart.js",
-      "manifest": "./src/webparts/spMayI/SpMayIWebPart.manifest.json",
-      "outputPath": "./dist/sp-may-i-web-part.js"
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-pac-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spPac/SpPacWebPart.js",
+          "manifest": "./src/webparts/spPac/SpPacWebPart.manifest.json"
+        }
+      ]
     }
-  ],
+  },
   "externals": {},
   "localizedResources": {
-    "SpMayIWebPartStrings": "webparts/spMayI/loc/{locale}.js"
+    "SpPacWebPartStrings": "lib/webparts/spPac/loc/{locale}.js"
   }
 }

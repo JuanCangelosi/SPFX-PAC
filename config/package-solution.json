@@ -2,8 +2,8 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
     "name": "sp-pac",
-    "id": "466932b2-75f3-4e0b-88f9-816e0d27e291",
-    "version": "1.0.0.4",
+    "id": "466932b2-75f3-4e0b-88f9-816e0d27e293",
+    "version": "1.0.0.7",
     "includeClientSideAssets": true
   },
   "paths": {
